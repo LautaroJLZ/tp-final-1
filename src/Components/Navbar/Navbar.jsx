@@ -11,7 +11,13 @@ const Navbar = () => {
     </a>
 
     <input type="checkbox" id="menu" className="peer hidden"/>
-    <label htmlFor="menu" className="bg-open-menu w-7 h-7 bg-cover bg-center cursor-pointer peer-checked:bg-close-menu transition-all z-50 md:hidden mr-5"></label>
+    
+    <label 
+    htmlFor="menu" 
+    className="bg-open-menu w-7 h-7 bg-cover bg-center cursor-pointer peer-checked:bg-close-menu transition-all z-50 md:hidden mr-5">
+    </label>
+
+    
 
     <div className="fixed inset-0 translate-x-full peer-checked:translate-x-0 transition-transform md:static bg-none md:translate-x-0 bg-beige dark:bg-negro">
 
@@ -31,9 +37,6 @@ const Navbar = () => {
 
           <li className="navComp">
             <a href="#">CONTACTO</a>
-          </li>
-          <li className="navCamo md:hidden">
-            <ToggleSwitch/>
           </li>
       </ul>
     </div>

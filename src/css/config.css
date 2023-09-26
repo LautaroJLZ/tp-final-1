@@ -13,4 +13,10 @@
     .navComp {
         @apply bg-beige hover:bg-gris transition-all rounded-lg p-1 dark:bg-negro dark:hover:bg-negro-claro dark:text-beige;
     }
+    .box{
+        @apply w-[90%] m-auto;
+    }
+    .skillCard {
+        @apply w-48 h-48 m-5
+    }
 }
