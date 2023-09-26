@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .wrapper{
+        @apply w-[100%] overflow-hidden max-w-screen-xl;
+    }
+    .button {
+        @apply bg-celesteOscuro dark:bg-celesteClaro text-beige dark:text-negro block w-fit p-2 rounded-md text-sm;
+    }
+    .navComp {
+        @apply bg-beige hover:bg-gris transition-all rounded-lg p-1 dark:bg-negro dark:hover:bg-negro-claro dark:text-beige;
+    }
+}
