@@ -17,6 +17,6 @@
         @apply w-[90%] m-auto;
     }
     .skillCard {
-        @apply w-48 h-48 m-5
+        @apply w-44 h-44 m-5 rounded-lg
     }
 }

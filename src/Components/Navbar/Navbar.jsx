@@ -6,6 +6,7 @@ const Navbar = () => {
 
 <div>
   <nav className="w-full h-20 flex items-center justify-between bg-beige dark:bg-negro">
+    
     <a href="#" className="w-1/3 max-w-[60px] ml-5 navComp">
       <img src="src/assets/logo.png" alt="logo" className="w-full"/>
     </a>
@@ -38,7 +39,12 @@ const Navbar = () => {
           <li className="navComp">
             <a href="#">CONTACTO</a>
           </li>
+
+          <div className="md:hidden">
+            <ToggleSwitch/>
+          </div>
       </ul>
+          
     </div>
     
     
