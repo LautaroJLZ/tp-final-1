@@ -3,6 +3,8 @@ import { About } from './Components/About/About.jsx'
 import { Me } from './components/Me/Me.jsx'
 import './css/estilos.css'
 import { Experience } from './Components/Experience/Experience.jsx'
+import { Projects } from './Components/Projects/Projects.jsx'
+import { ContactMe } from './Components/ContactMe/ContactMe.jsx'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
 
     <main>
       <Experience/>
+      <Projects/>
+      <ContactMe/>
     </main>
 
     <footer></footer>
@@ -24,3 +28,7 @@ function App() {
 }
 
 export default App
+
+// service_fra19u9
+// template_zo44gwf
+// v91PzthZejgJx3eBZ

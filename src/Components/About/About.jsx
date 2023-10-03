@@ -11,28 +11,28 @@ const About = () => {
 
             <div className="flex flex-wrap justify-center">
 
-                <div className="skillCard hover:w-48 hover:h-48 hover:bg-negro-claro transition-all">
+                <div className="skillCard hover:w-40 hover:h-40 hover:bg-negro-claro transition-all">
                     <img src="src/assets/react-grande.svg" alt="" />
                 </div>
-                <div className="skillCard hover:w-48 hover:h-48 hover:bg-negro-claro transition-all">
+                <div className="skillCard hover:w-40 hover:h-40 hover:bg-negro-claro transition-all">
                     <img src="src/assets/c-plus-plus-svgrepo-com.svg" alt="" />
                 </div>
-                <div className="skillCard hover:w-48 hover:h-48 hover:bg-negro-claro transition-all">
+                <div className="skillCard hover:w-40 hover:h-40 hover:bg-negro-claro transition-all">
                     <img src="src/assets/css-3-svgrepo-com.svg" alt="" />
                 </div>
-                <div className="skillCard hover:w-48 hover:h-48 hover:bg-negro-claro transition-all">
+                <div className="skillCard hover:w-40 hover:h-40 hover:bg-negro-claro transition-all">
                     <img src="src/assets/html-5-svgrepo-com.svg" alt="" />
                 </div>
-                <div className="skillCard hover:w-48 hover:h-48 hover:bg-negro-claro p-4 delay-150">
+                <div className="skillCard hover:w-40 hover:h-40 hover:bg-negro-claro p-4 delay-150">
                     <img src="src/assets/javascript-svgrepo-com.svg" alt="" />
                 </div>
-                <div className="skillCard hover:w-48 hover:h-48 hover:bg-negro-claro transition-all">
+                <div className="skillCard hover:w-40 hover:h-40 hover:bg-negro-claro transition-all">
                     <img src="src/assets/java-svgrepo-com.svg" alt="" />
                 </div>
-                <div className="skillCard hover:w-48 hover:h-48 hover:bg-negro-claro transition-all">
+                <div className="skillCard hover:w-40 hover:h-40 hover:bg-negro-claro transition-all">
                     <img src="src/assets/ruby-svgrepo-com.svg" alt="" />
                 </div>
-                <div className="skillCard hover:w-48 hover:h-48 hover:bg-negro-claro transition-all">
+                <div className="skillCard hover:w-40 hover:h-40 hover:bg-negro-claro transition-all">
                     <img src="src/assets/tailwind-svgrepo-com.svg" alt="" />
                 </div>
 

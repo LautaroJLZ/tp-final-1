@@ -1,16 +1,15 @@
-import React from 'react';
-
 const Experience = () => {
     return(
         <div className='box'>
-            <div className='w-full m-auto'>
-            <h1>React Developer intern</h1>
-            <p>Feb 2023 - Mar 2023</p>
-            <ul>
-                <li>Desingning and developing user interfaces using React and Material UI</li>
-                <li>Optimizing the performance of the application by reducing rendering tima and minimizing network requests</li>
-                <li>Participating in code reviews, testing, and debugging to ensure quality and stability of the software</li>
-                <li>Trowbleshooting and debugging issues that arise durning development of in production</li>
+            <h1 className="text-3xl ml-10 font-bold">Experience</h1>
+            <div className='w-full md:w-[30%] m-auto md:m-0 shadow-2xl p-10 mb-10'>
+            <h2 className="text-celesteClaro text-2xl font-bold">React Developer intern</h2>
+            <p className="text-xs py-5 ">Febrero 2023 - Marzo 2023</p>
+            <ul className="list-disc text-justify text-sm">
+                <li>Diseño y desarrollo de interfaz de usuario, usando React y material UI</li>
+                <li>Optimizar el rendimiento de la aplicación reduciendo el tiempo de renderizado y minimizando las solicitudes de red.</li>
+                <li>Participar en revisiones, testing y debugging de código para garantizar la calidad y estabilidad del software.</li>
+                <li>Solución de problemas y debugging de problemas que surgen durante el desarrollo en producción.</li>
             </ul>
             </div>
         </div>
