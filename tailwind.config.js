@@ -17,11 +17,6 @@ export default {
       'beige': '#f2f2f2',
       },
       textColor: ['active','hover','focus', 'group-hover'],
-
-      backgroundImage: {
-        "close-menu": "url('src/assets/close.svg')",
-        "open-menu": "url('src/assets/open.svg')"
-      }
     },
   },
   plugins: [],

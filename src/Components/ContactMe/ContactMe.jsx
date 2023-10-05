@@ -25,13 +25,13 @@ const ContactMe = () => {
       );
   };
     return(
-      <div className='box'> 
+      <div className='box' id='contactMe'> 
         <form ref={form} onSubmit={sendEmail} className='flex flex-col w-full m-auto my-10 '>
 
-          <div className='w-full flex justify-between'>
+          <div className='w-full md:flex md:justify-between'>
 
-            <input type="text" name="user_name" placeholder='Nombre Completo' className='w-[49.5%] p-3 rounded-md placeholder-negro shadow-2xl dark:bg-negro-claro dark:placeholder-beige' />
-            <input type="email" name="user_email" placeholder='Email' className='w-[49.5%] p-3 rounded-md placeholder-negro shadow-2xl dark:bg-negro-claro dark:placeholder-beige'/>
+            <input type="text" name="user_name" placeholder='Nombre Completo' className='md:w-[49.5%] w-full p-3 rounded-md placeholder-negro shadow-2xl dark:bg-negro-claro dark:placeholder-beige' />
+            <input type="email" name="user_email" placeholder='Email' className='md:w-[49.5%] w-full mt-2 md:mt-0 p-3 rounded-md placeholder-negro shadow-2xl dark:bg-negro-claro dark:placeholder-beige'/>
             
           </div>
 
