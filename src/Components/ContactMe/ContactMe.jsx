@@ -25,17 +25,25 @@ const ContactMe = () => {
       );
   };
     return(
-        <div className='text-red-700'> 
-            <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
-        </div>
+      <div className='box'> 
+        <form ref={form} onSubmit={sendEmail} className='flex flex-col w-full m-auto my-10 '>
+
+          <div className='w-full flex justify-between'>
+
+            <input type="text" name="user_name" placeholder='Nombre Completo' className='w-[49.5%] p-3 rounded-md placeholder-negro shadow-2xl dark:bg-negro-claro dark:placeholder-beige' />
+            <input type="email" name="user_email" placeholder='Email' className='w-[49.5%] p-3 rounded-md placeholder-negro shadow-2xl dark:bg-negro-claro dark:placeholder-beige'/>
+            
+          </div>
+
+          <input type="text" name="user_field" placeholder='Asunto' className='placeholder-negro p-3 rounded-md mt-2 shadow-2xl dark:bg-negro-claro dark:placeholder-beige' />
+
+          <textarea name="message" placeholder='Mensaje' className='placeholder-negro p-3 rounded-md mt-2 shadow-2xl resize-none h-40 dark:bg-negro-claro dark:placeholder-beige'/>
+
+          <input type="submit" value="Enviar Mensaje" className='w-fit p-3 rounded-md text-beige bg-celesteOscuro font-bold text-xs cursor-pointer dark:bg-celesteClaro dark:text-negro my-2'/>
+
+        </form>
+        
+      </div>
     )
 }
 

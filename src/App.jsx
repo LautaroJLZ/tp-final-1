@@ -5,6 +5,7 @@ import './css/estilos.css'
 import { Experience } from './Components/Experience/Experience.jsx'
 import { Projects } from './Components/Projects/Projects.jsx'
 import { ContactMe } from './Components/ContactMe/ContactMe.jsx'
+import { SocialMedia } from './Components/SocialMedia/SocialMedia.jsx'
 
 function App() {
   return (
@@ -19,10 +20,12 @@ function App() {
     <main>
       <Experience/>
       <Projects/>
-      <ContactMe/>
     </main>
 
-    <footer></footer>
+    <footer>
+    <ContactMe/>
+    <SocialMedia/>
+    </footer>
     </>
   )
 }
