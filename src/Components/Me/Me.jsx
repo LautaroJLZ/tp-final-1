@@ -12,14 +12,6 @@ const Me = () => {
                 <h1 className="text-celesteOscuro font-bold text-6xl md:text-7xl dark:text-beige">Lautaro Zalazar</h1>
                 <p className="text-negro dark:text-beige font-Ubuntu font-bold text-3xl md:text-3xl pt-5">Transformando ideas en soluciones funcionales y elegantes - ¡colaboremos!</p>
                 <ResumenDownloadButton/>
-                
-                                {/* <button className="button mt-10 md:w-48 w-full mx-auto md:mx-0">Descargar Curriculum</button> */}
-                {/* <a 
-                href="../../public/ZalazarLautaroCVFrontEnd.pdf" 
-                download={cv} 
-                className="button mt-10 md:w-48 w-full text-center md:mx-0 hover:p-3 transition-all">
-                     Descargar Curriculum
-                </a> */}
             </div>
         </div>
     )
