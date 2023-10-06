@@ -1,3 +1,12 @@
+import react from '/src/assets/react-grande.svg'
+import cppimg from '/src/assets/c-plus-plus-svgrepo-com.svg'
+import css from '/src/assets/css-3-svgrepo-com.svg'
+import html from '/src/assets/html-5-svgrepo-com.svg'
+import javascript from '/src/assets/javascript-svgrepo-com.svg'
+import java from '/src/assets/java-svgrepo-com.svg'
+import ruby from '/src/assets/ruby-svgrepo-com.svg'
+import tailwind from '/src/assets/tailwind-svgrepo-com.svg'
+
 const About = () => {
     return(
         <div className="box mt-5" id="about">
@@ -9,28 +18,35 @@ const About = () => {
             <div className="flex flex-wrap justify-center">
 
                 <div className="skillCard hover:w-40 hover:h-40 hover:bg-gris dark:hover:bg-negro-claro transition-all">
-                    <img src="src/assets/react-grande.svg" alt="" />
+                    <img src={react} alt="react" /> 
                 </div>
+
                 <div className="skillCard hover:w-40 hover:h-40 hover:bg-gris dark:hover:bg-negro-claro transition-all">
-                    <img src="src/assets/c-plus-plus-svgrepo-com.svg" alt="" />
+                    <img src={cppimg} alt="C++ logo" />
                 </div>
+
                 <div className="skillCard hover:w-40 hover:h-40 hover:bg-gris dark:hover:bg-negro-claro transition-all">
-                    <img src="src/assets/css-3-svgrepo-com.svg" alt="" />
+                    <img src={css} alt="CSS logo" />
                 </div>
+
                 <div className="skillCard hover:w-40 hover:h-40 hover:bg-gris dark:hover:bg-negro-claro transition-all">
-                    <img src="src/assets/html-5-svgrepo-com.svg" alt="" />
+                    <img src={html} alt="html logo" />
                 </div>
+
                 <div className="skillCard hover:w-40 hover:h-40 hover:bg-gris dark:hover:bg-negro-claro p-4 delay-150">
-                    <img src="src/assets/javascript-svgrepo-com.svg" alt="" />
+                    <img src={javascript} alt="JS logo" />
                 </div>
+
                 <div className="skillCard hover:w-40 hover:h-40 hover:bg-gris dark:hover:bg-negro-claro transition-all">
-                    <img src="src/assets/java-svgrepo-com.svg" alt="" />
+                    <img src={java} alt="Java logo" />
                 </div>
+
                 <div className="skillCard hover:w-40 hover:h-40 hover:bg-gris dark:hover:bg-negro-claro transition-all">
-                    <img src="src/assets/ruby-svgrepo-com.svg" alt="" />
+                    <img src={ruby} alt="Ruby logo" />
                 </div>
+
                 <div className="skillCard hover:w-40 hover:h-40 hover:bg-gris dark:hover:bg-negro-claro transition-all">
-                    <img src="src/assets/tailwind-svgrepo-com.svg" alt="" />
+                    <img src={tailwind} alt="tailwind logo" />
                 </div>
 
             </div>
