@@ -1,4 +1,5 @@
 import Meimg from '../../assets/circular-lauty.png'
+import cv from '../../../public/ZalazarLautaroCVFrontEnd.pdf'
 
 const Me = () => {
     return(
@@ -12,7 +13,7 @@ const Me = () => {
                 {/* <button className="button mt-10 md:w-48 w-full mx-auto md:mx-0">Descargar Curriculum</button> */}
                 <a 
                 href="../../public/ZalazarLautaroCVFrontEnd.pdf" 
-                download="ZalazarLautaroCVFrontEnd.pdf" 
+                download={cv} 
                 className="button mt-10 md:w-48 w-full text-center md:mx-0 hover:p-3 transition-all">
                      Descargar Curriculum
                 </a>
