@@ -34,7 +34,7 @@ const Navbar = () => {
             menuOpen ? "translate-x-0" : "translate-x-full"
           } transition-transform md:static bg-none md:translate-x-0 bg-beige dark:bg-negro`}
         >
-          <ul className="absolute inset-x-0 top-24 p-12 w-[90%] mx-auto rounded-md h-max text-center grid gap-6 font-Ubuntu font-bold text-negro md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static mr-8">
+          <ul className="absolute inset-x-0 top-24 p-12 w-[90%] mx-auto rounded-md h-max text-center grid gap-6 font-Ubuntu font-bold text-negro md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static mr-8 justify-center">
             <li className="navComp">
               <a href="#abot">A CERCA DE</a>
             </li>
