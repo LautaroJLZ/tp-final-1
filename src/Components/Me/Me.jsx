@@ -1,8 +1,9 @@
+import yoimg from '/src/assets/circular-Lauty.png'
 const Me = () => {
     return(
         <div className="box md:flex m-auto justify-evenly">
             <div className="w-full md:w-[22%] flex justify-center align-middle items-center md:block">
-                <img src="src/assets/circular-Lauty.png" alt="" className="w-1/2 h1/2 md:w-fit md:h-fit"/>
+                <img src={yoimg} alt="Yo img" className="w-1/2 h1/2 md:w-fit md:h-fit" /> 
             </div>
             <div className="md:pl-5 box w-full md:w-[78%]">
                 <h1 className="text-celesteOscuro font-bold text-6xl md:text-7xl dark:text-beige">Lautaro Zalazar</h1>
