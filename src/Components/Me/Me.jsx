@@ -22,4 +22,3 @@ const Me = () => {
 }
 
 export { Me }
-

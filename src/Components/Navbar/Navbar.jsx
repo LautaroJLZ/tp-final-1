@@ -1,6 +1,7 @@
 import { ToggleSwitch } from "../ToggleSwitch/ToggleSwitch";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,8 +10,9 @@ const Navbar = () => {
     <div id="home">
       
       <nav className="w-full h-20 flex items-center justify-between bg-beige dark:bg-negro">
+
         <a href="#home" className="w-1/3 max-w-[60px] ml-5 navComp">
-          <img src="src/assets/logo.png" alt="logo" className="w-full" />
+          <img src={logo} alt="logo" className="w-full" />
         </a>
 
         <input type="checkbox" id="menu" className="peer hidden" />
