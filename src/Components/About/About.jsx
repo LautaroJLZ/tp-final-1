@@ -6,6 +6,7 @@ import javascript from '/src/assets/javascript-svgrepo-com.svg'
 import java from '/src/assets/java-svgrepo-com.svg'
 import ruby from '/src/assets/ruby-svgrepo-com.svg'
 import tailwind from '/src/assets/tailwind-svgrepo-com.svg'
+import php from '/src/assets/php-logo.svg'
 
 const About = () => {
     return(
@@ -47,6 +48,10 @@ const About = () => {
 
                 <div className="skillCard hover:w-40 hover:h-40 hover:bg-gris dark:hover:bg-negro-claro transition-all">
                     <img src={tailwind} alt="tailwind logo" />
+                </div>
+
+                <div className="skillCard hover:w-40 hover:h-40 hover:bg-gris dark:hover:bg-negro-claro transition-all">
+                    <img src={php} alt="php Logo" />
                 </div>
 
             </div>
